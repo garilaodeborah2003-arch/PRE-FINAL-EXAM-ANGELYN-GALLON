@@ -1,0 +1,42 @@
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.add-product-form input {
+  margin: 4px;
+  padding: 6px;
+  width: 180px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.product-card {
+  border: 1px solid #f4f;
+  padding: 10px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px #f4f;
+}
+
+.product-card.low-stock {
+  border-color: red;
+  background-color: rgba(146, 46, 185, 1);
+}
+
+.product-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.quantity-buttons button {
+  margin: 3px;
+  padding: 5px 8px;
+}
